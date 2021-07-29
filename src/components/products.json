@@ -1,0 +1,62 @@
+ { "products": [{
+    "name": "Câmera de Fole",
+    "SKU": "1",
+    "description": "Câmera fotográfica de fole",
+    "qty": "4",
+    "price": "149.90",
+    "discount": "35",
+    "image": "/assets/images/camera.jpg",
+    "category": "40s"
+},
+{
+    "name": "Geladeira Retrô",
+    "SKU": "2",
+    "description": "Geladeira de design retrô na cor verde" ,
+    "qty": "1",
+    "price": "949.90",
+    "discount": "20",
+    "image": "/assets/images/geladeira.jpg" ,
+    "category": "60s"
+},
+{
+    "name": "Máquina de Escrever",
+    "SKU": "3",
+    "description": "Máquina de escrever antiga",
+    "qty": "4",
+    "price": "449.50",
+    "discount": "30",
+    "image": "/assets/images/maquina.jpg" ,
+    "category": "40s"
+},
+{
+    "name": "Telefone de Disco",
+    "SKU": "4",
+    "description": "Telefone antigo de discagem por disco",
+    "qty": "7",
+    "price": "299.90",
+    "discount": "15",
+    "image": "/assets/images/telefone.jpg",
+    "category": "40s"
+},
+{
+    "name": "TV 1960s",
+    "SKU": "5",
+    "description": "Televisão da década de 60 com imagem monocromática",
+    "qty": "5",
+    "price": "499.90",
+    "discount": "20",
+    "image": "/assets/images/tv.png",
+    "category": "60s"
+},
+{
+    "name": "Gramofone",
+    "SKU": "6",
+    "description": "Gramofone antigo com cone embutido",
+    "qty": "3",
+    "price": "699.90",
+    "discount": "25",
+    "image": "/assets/images/vitrola.jpg",
+    "category": "40s"
+}],
+ "categories": ["", "40s", "60s"]
+ }

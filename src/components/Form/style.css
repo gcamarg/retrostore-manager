@@ -1,0 +1,78 @@
+
+.formContainer{
+    margin: 20PX 0 20PX 0;
+    width: 500px;
+    height: fit-content;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.input-std{
+    margin: 10px 0;
+    height: 30px;
+    width: 400px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fff;
+    color: #171717;
+    border: none;
+}
+input:active, :focus {
+    outline: none;
+    box-shadow: none;
+}
+.submit-button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.2);
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: all 0.2s;
+}
+.submit-button:hover{
+    background-color: rgb(4, 110, 4);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+.p-text{
+    font-family: 'Poppins',sans-serif;
+    color: #fff;
+    padding: 0 30px;
+    margin-top: 40px;
+    text-align: center;
+}
+#state-city{
+    margin: 10px 0;
+    height: 30px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+#state{
+    height: 30px;
+    width: 100px;
+    margin: 0;
+}
+#city{
+    height: 30px;
+    width: 280px;
+    margin: 0;
+}
+@media  (max-width: 1000px) {
+    .p-text{
+        margin-top: 0px;
+    }
+    .formContainer{
+        height: fit-content;
+        margin: 0 0 20px 0;
+    }
+}
